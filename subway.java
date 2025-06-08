@@ -21,7 +21,6 @@ public class SubwaySystem {
         }
     }
 
-    // 内部类：表示中转站信息
     static class TransferStation {
         String station;
         Set<String> lines;
